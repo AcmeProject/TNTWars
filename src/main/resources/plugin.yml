@@ -1,0 +1,9 @@
+name: TnT-Wars
+version: 0.1
+author: AcmeProject
+main: net.poweredbyhate.tntwars.TNT
+load: STARTUP
+commands:
+    tw:
+        description: default command
+        usage: /tw <supply, setred, setblue, setlobby>

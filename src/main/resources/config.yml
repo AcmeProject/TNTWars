@@ -1,0 +1,57 @@
+TnT:
+    #Max Numbers of players for the game to auto start
+    Max-Players: 10
+    #Game time in minutes, shuts down the game if it reaches 0.
+    MaxGameTime: 15
+    #Should we set game info as MOTD?
+    GameMOTD: false
+    #Bungee mode, requires HubKick, see plugin page.
+    Bungee-Enabled: false
+    #Should we reset the world on startup?
+    ResetWorld: false
+    #If ResetWorld is true, you need a map folder in the same DIR as your server.jar.
+    GameWorldResetFolder: 'TnTWarsMap'
+    #Should we reward players?
+    RewardPlayers: false
+    #Command to give players their reward.
+    RewardCommand: 'eco give %PLAYER% 5'
+#Basic data stuff that does not concern you.
+Spawn:
+    Red:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+    Blue:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+    Lobby:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+Cuboids:
+    minRed:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+    maxRed:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+    minBlu:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+    maxBlu:
+        World: GameWorld
+        X: 100
+        Y: 100
+        Z: 100
+#Amount of time to wait for the plugin to load the settings in seconds. Needed since the plugin enables before all worlds are loaded.
+DoNotTouchUnlessYouKnowWhatYouAreDoing: 5
